@@ -5407,7 +5407,8 @@ body.admin-logged-in .admin-dashboard {
 .kid-chatbot-interface {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 400px; /* Reduced height */
+    max-height: 100%;
     background-color: #f8f9fb;
     border-radius: 20px;
     overflow: hidden;
@@ -5469,12 +5470,28 @@ body.admin-logged-in .admin-dashboard {
 
 .chatbot-body {
     flex: 1;
-    overflow-y: auto;
+    overflow-y: scroll;
+    max-height: 280px; /* Set a max-height */
     padding: 15px;
     background-color: #f0f2f5;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+.chatbot-body::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chatbot-body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chatbot-body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .chat-date-divider {
@@ -5607,4 +5624,11 @@ body.admin-logged-in .admin-dashboard {
 
 .chatbot-send-button:hover {
     transform: scale(1.1);
+}
+
+.hero-device {
+    position: relative;
+    width: 100%;
+    max-width: 280px; /* Reduced size */
+    margin: 0 auto;
 }
