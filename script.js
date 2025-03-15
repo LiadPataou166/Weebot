@@ -858,11 +858,11 @@ function initializeSidePanels() {
         <div class="side-panel-content">
             <div class="about-site-info">
                 <div class="site-logo-container">
-                    <i class="fas fa-atom logo-icon-small"></i>
-                    <span class="site-name">קוונטום טק</span>
+                    <i class="fas fa-laptop-code logo-icon-small"></i>
+                    <span class="site-name">קודינג קידס</span>
                 </div>
                 <p class="site-description">
-                    אנו מספקים פתרונות טכנולוגיים מתקדמים לעסקים קטנים ובינוניים ברחבי ישראל. עקבו אחרינו ברשתות החברתיות לעדכונים ותוכן בלעדי.
+                    אנו מלמדים ילדים לפתח אתרים, משחקים וצ'אטבוטים באמצעות שפות תכנות מובילות. עקבו אחרינו ברשתות החברתיות לטיפים וחומרי למידה.
                 </p>
             </div>
             
@@ -871,8 +871,8 @@ function initializeSidePanels() {
                     <i class="fab fa-youtube"></i>
                     <div class="social-link-content">
                         <span class="social-link-title">ערוץ YouTube</span>
-                        <span class="social-link-desc">צפו בהדרכות וחדשות</span>
-                        <span class="social-follower-count">42K עוקבים</span>
+                        <span class="social-link-desc">צפו בהדרכות וטיפים</span>
+                        <span class="social-follower-count">12K עוקבים</span>
                     </div>
                 </a>
                 
@@ -880,8 +880,8 @@ function initializeSidePanels() {
                     <i class="fab fa-facebook-f"></i>
                     <div class="social-link-content">
                         <span class="social-link-title">עמוד Facebook</span>
-                        <span class="social-link-desc">הצטרפו לקהילה שלנו</span>
-                        <span class="social-follower-count">18K עוקבים</span>
+                        <span class="social-link-desc">הצטרפו לקהילת ההורים</span>
+                        <span class="social-follower-count">8K עוקבים</span>
                     </div>
                 </a>
                 
@@ -889,26 +889,17 @@ function initializeSidePanels() {
                     <i class="fab fa-instagram"></i>
                     <div class="social-link-content">
                         <span class="social-link-title">Instagram</span>
-                        <span class="social-link-desc">חוויות ויזואליות</span>
-                        <span class="social-follower-count">25K עוקבים</span>
+                        <span class="social-link-desc">פרויקטים של תלמידים</span>
+                        <span class="social-follower-count">15K עוקבים</span>
                     </div>
                 </a>
                 
-                <a href="#" class="social-link linkedin">
-                    <i class="fab fa-linkedin-in"></i>
+                <a href="#" class="social-link tiktok">
+                    <i class="fab fa-tiktok"></i>
                     <div class="social-link-content">
-                        <span class="social-link-title">LinkedIn</span>
-                        <span class="social-link-desc">קשרים עסקיים</span>
-                        <span class="social-follower-count">5.2K עוקבים</span>
-                    </div>
-                </a>
-                
-                <a href="#" class="social-link twitter">
-                    <i class="fab fa-twitter"></i>
-                    <div class="social-link-content">
-                        <span class="social-link-title">Twitter / X</span>
-                        <span class="social-link-desc">עדכונים בזמן אמת</span>
-                        <span class="social-follower-count">8.4K עוקבים</span>
+                        <span class="social-link-title">TikTok</span>
+                        <span class="social-link-desc">טיפים קצרים לילדים</span>
+                        <span class="social-follower-count">20K עוקבים</span>
                     </div>
                 </a>
             </div>
@@ -916,7 +907,7 @@ function initializeSidePanels() {
             <div class="contact-info-mini">
                 <div class="contact-item-mini">
                     <i class="fas fa-envelope"></i>
-                    <span>info@quantum-tech.co.il</span>
+                    <span>info@coding-kids.co.il</span>
                 </div>
                 <div class="contact-item-mini">
                     <i class="fas fa-phone-alt"></i>
